@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{b82d2d3f-0959-49e8-882e-731bb1b9ef2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{1caefb00-241f-4d53-86f9-c1f7bdc1f87f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{72307345-c805-4947-ba6a-011c3c02019f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\ShadowMapping">
+      <UniqueIdentifier>{8d6b40ad-aba2-4520-baf5-85cc5f37f54a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\Blinn-Phong">
+      <UniqueIdentifier>{2916e996-40b8-40b3-9704-04c7b32bbb25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\Billboards">
+      <UniqueIdentifier>{9f105fdb-e6e3-46e3-a707-631baf1af698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\BumpMapping">
+      <UniqueIdentifier>{ae312e3f-ba26-41f7-bb32-299fc1168d86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\ColorInversion">
+      <UniqueIdentifier>{630d67e2-9928-4ba1-a248-4cddc074266b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\Cook-Torrance">
+      <UniqueIdentifier>{1f091dc3-22a5-48ff-a122-402ceb2237b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders\LayeredFog">
+      <UniqueIdentifier>{c0660d9b-8585-42f3-bd4d-837e5ea8b45f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="objloader.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="MyWindow.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="tangentspace.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="glew.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="trans.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="BM_Object.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="shader.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="controls.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="objloader.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MyWindow.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="tangentspace.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="trans.hpp">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.hpp">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="BM_Object.hpp">
+      <Filter>Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ShadowMapping.frag">
+      <Filter>shaders\ShadowMapping</Filter>
+    </None>
+    <None Include="ShadowMapping.vert">
+      <Filter>shaders\ShadowMapping</Filter>
+    </None>
+    <None Include="DepthRTT.frag">
+      <Filter>shaders\ShadowMapping</Filter>
+    </None>
+    <None Include="DepthRTT.vert">
+      <Filter>shaders\ShadowMapping</Filter>
+    </None>
+    <None Include="Blinn-Phong.frag">
+      <Filter>shaders\Blinn-Phong</Filter>
+    </None>
+    <None Include="Blinn-Phong.vert">
+      <Filter>shaders\Blinn-Phong</Filter>
+    </None>
+    <None Include="BillboardStandardShader.frag">
+      <Filter>shaders\Billboards</Filter>
+    </None>
+    <None Include="BillboardStandardShader.vert">
+      <Filter>shaders\Billboards</Filter>
+    </None>
+    <None Include="BumpMapping.frag">
+      <Filter>shaders\BumpMapping</Filter>
+    </None>
+    <None Include="BumpMapping.vert">
+      <Filter>shaders\BumpMapping</Filter>
+    </None>
+    <None Include="ColorInversion.frag">
+      <Filter>shaders\ColorInversion</Filter>
+    </None>
+    <None Include="PassThrought.vert">
+      <Filter>shaders\ColorInversion</Filter>
+    </None>
+    <None Include="CookTorrance.frag">
+      <Filter>shaders\Cook-Torrance</Filter>
+    </None>
+    <None Include="CookTorrance.vert">
+      <Filter>shaders\Cook-Torrance</Filter>
+    </None>
+    <None Include="FogShader.frag">
+      <Filter>shaders\LayeredFog</Filter>
+    </None>
+    <None Include="FogShader.vert">
+      <Filter>shaders\LayeredFog</Filter>
+    </None>
+  </ItemGroup>
+</Project>
